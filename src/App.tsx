@@ -116,7 +116,7 @@ const App = () => {
         </div>
         <div className="w-64 sm:w-80 md:w-96 lg:w-[28rem] self-end">
           <img
-            src="/img/profile.png"
+            src="./img/profile.png"
             alt="Profile"
             className="w-full object-contain select-none"
           />
@@ -135,7 +135,7 @@ const App = () => {
             <CometCard>
               <div className="w-50 md:w-80 rounded-2xl p-1 bg-gradient-to-br from-cyan-500 to-blue-500">
                 <img
-                  src="/img/about.JPG"
+                  src="./img/about.JPG"
                   alt="Profile"
                   className="w-full object-contain select-none rounded-2xl"
                 />
@@ -305,7 +305,7 @@ const App = () => {
           <Card
             title="FCU RFID Library Management System"
             description="A library management system for FCU using RFID technology."
-            image="/img/projects/fculms.png"
+            image="./img/projects/fculms.png"
             badges={[
               { text: "Laravel", color: "bg-red-500" },
               { text: "HTML", color: "bg-orange-500" },
@@ -318,7 +318,7 @@ const App = () => {
           <Card
             title="Mobile Shopping App"
             description="A mobile application for shopping with a user-friendly interface."
-            image="/img/projects/mobileshop.png"
+            image="./img/projects/mobileshop.png"
             badges={[
               { text: "Flutter", color: "bg-blue-500" },
               { text: "Dart", color: "bg-green-500" },
@@ -328,7 +328,7 @@ const App = () => {
           <Card
             title="Point of Sale"
             description="A point of sale application."
-            image="/img/projects/pos.png"
+            image="./img/projects/pos.png"
             badges={[
               { text: "CodeIgniter", color: "bg-red-600" },
               { text: "HTML", color: "bg-orange-500" },
@@ -341,7 +341,7 @@ const App = () => {
           <Card
             title="Point of Sale"
             description="A point of sale application."
-            image="/img/projects/pos1.png"
+            image="./img/projects/pos1.png"
             badges={[
               { text: "Winforms", color: "bg-blue-700" },
               { text: "C#", color: "bg-violet-700" },
@@ -351,7 +351,7 @@ const App = () => {
           <Card
             title="Web Shopping App"
             description="A web-based shopping application."
-            image="/img/projects/webshop.png"
+            image="./img/projects/webshop.png"
             badges={[
               { text: "HTML", color: "bg-orange-500" },
               { text: "CSS", color: "bg-blue-500" },
@@ -370,7 +370,7 @@ const App = () => {
           <div>
             <img
               className="w-80"
-              src="/img/experience/dbtc.jpg"
+              src="./img/experience/dbtc.jpg"
               alt="DBTC Experience"
             />
           </div>
