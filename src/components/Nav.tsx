@@ -16,13 +16,12 @@ const Nav: React.FC<NavProps> = ({ links, className = "" }) => {
   return (
     <nav className={`w-full fixed top-0 right-0 z-50 px-8 py-6 ${className}`}>
       <div className="flex justify-end items-center">
-        {/* Desktop Nav */}
         <ul className="hidden md:flex gap-7 text-white text-sm md:text-lg font-sm">
           {links.map((link) => (
             <li key={link.href} className="relative group">
               <a
                 href={link.href}
-                className="transition-colors duration-300 hover:text-cyan-500" 
+                className="transition-colors duration-300 hover:text-cyan-500"
               >
                 {link.label}
                 <span className="block h-[2px] max-w-0 bg-cyan-500 transition-all duration-300 group-hover:max-w-full"></span>
@@ -39,17 +38,17 @@ const Nav: React.FC<NavProps> = ({ links, className = "" }) => {
         >
           <span
             className={`absolute w-6 h-[2px] bg-white transition-transform duration-300 ${
-              isOpen ? 'rotate-45' : '-translate-y-2'
+              isOpen ? "rotate-45" : "-translate-y-2"
             }`}
           />
           <span
             className={`absolute w-6 h-[2px] bg-white transition-opacity duration-300 ${
-              isOpen ? 'opacity-0' : 'opacity-100'
+              isOpen ? "opacity-0" : "opacity-100"
             }`}
           />
           <span
             className={`absolute w-6 h-[2px] bg-white transition-transform duration-300 ${
-              isOpen ? '-rotate-45' : 'translate-y-2'
+              isOpen ? "-rotate-45" : "translate-y-2"
             }`}
           />
         </button>
