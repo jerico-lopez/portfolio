@@ -14,7 +14,7 @@ const Nav: React.FC<NavProps> = ({ links, className = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={`w-full fixed top-0 right-0 z-50 px-8 py-6 ${className}`}>
+    <nav className={`w-full fixed top-0 right-0 z-10 px-8 py-6 ${className}`}>
       <div className="flex justify-end items-center">
         <ul className="hidden md:flex gap-7 text-white text-sm md:text-lg font-sm">
           {links.map((link) => (
